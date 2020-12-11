@@ -9,8 +9,8 @@ module.exports = {
     // 这里还没有将客户端代码配置，而是通过updateCompiler方法更改entry属性
     entry: "./src/main.js",
     output: {
-        filename: "[name].js",
-        path: path.resolve(__dirname, "./dist")
+        path: path.resolve(__dirname, "./dist"),
+        filename: "[name].js"
     },
     plugins: [
         // 输出一个html，并将打包的chunk引入

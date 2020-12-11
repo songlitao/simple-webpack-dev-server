@@ -1,4 +1,5 @@
-require('./js/home');
+
+require('./js/hmr');
 
 const text = '界面加载完成...';
 
