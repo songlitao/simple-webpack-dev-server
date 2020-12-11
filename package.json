@@ -1,7 +1,7 @@
 {
     "name": "simple-webpack-dev-server",
     "version": "0.1.0",
-    "description": "webpack热更新HMR简单实现",
+    "description": "简单实现webpack-dev-server热更新",
     "scripts": {
         "dev": "node bin/webpack-dev-server"
     },

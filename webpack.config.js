@@ -1,6 +1,6 @@
-const { HotModuleReplacementPlugin } = require("webpack");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
 const path = require("path");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+const { HotModuleReplacementPlugin } = require("webpack");
 
 // https://juejin.cn/post/6844904020528594957
 
