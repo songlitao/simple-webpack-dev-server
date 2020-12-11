@@ -3,7 +3,7 @@
     "version": "0.1.0",
     "description": "简单实现webpack-dev-server热更新",
     "scripts": {
-        "dev": "node bin/webpack-dev-server"
+        "dev": "node bin/webpack-dev-server.js"
     },
     "license": "MIT",
     "devDependencies": {
